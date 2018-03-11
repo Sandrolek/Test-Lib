@@ -9,7 +9,7 @@ J.start()
 LastX = 0
 
 while True:
-#тестируем стики
+    #тестируем стики
     J.Axis.get('z')
     x = J.Axis.get('x')
     if LastX == x:
@@ -18,7 +18,7 @@ while True:
         print(x)
     LastX = x
 
-#тестируем кнопки
+    #тестируем кнопки
 #    btn = J.Buttons.get('b')
 #    print(btn)
 
